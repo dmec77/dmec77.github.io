@@ -1,0 +1,55 @@
+.new-game {
+	border: #000000 20px solid;
+	padding: 20;
+	width: 20%;
+	height: 120px;
+}
+
+
+
+.table {
+ 	border: #000000 2px solid;
+ 	border-spacing: 0;
+ 	width: 80%;
+ 	height: 180px;
+ 	padding: 15px;
+    margin: 50px; 
+}
+
+.tbody {
+	border: #000000 2px solid;
+	width: 50%;
+	padding: 25px;
+    margin: 25px;
+}
+
+.row {
+	display: table-row;
+	border: #000000 2px solid;
+	width: 20%;
+	padding: 25px;
+    margin: 25px;
+}
+
+
+.cell {
+	display: table-cell;
+	/*justify-content: space-around;*/
+	align-items: center;
+	border: transparent;
+	/*border-spacing: 0;*/
+	width: 30px;
+	height: 30px;
+	/* padding: 25px; */
+    margin: 25px;
+}
+
+
+/* Flex Box
+	display: flex;
+	flex: 3;  //this means it is 3x bigger than its  siblings
+	justify-content: center; this will control the height when screen is smaller
+	align-items: center;
+	height: 100vh;  100view height
+	**try removing margin and text-align if it is there
+
