@@ -1,3 +1,7 @@
+body {
+	background-color: black;
+}
+
 .new-game {
 	border: #000000 20px solid;
 	padding: 20;
