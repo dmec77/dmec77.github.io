@@ -1,51 +1,137 @@
 body {
 	background-color: black;
+	background-image: url("https://img.clipartfest.com/5310849cdd028605cd8e0bad43bbdb96_dripping-blood-black-background-photo-drippingbloodpng-alante-dripping-blood-clipart-black-and-white_1024-1024.png");
+	widows: 100%;
+	background-repeat: no-repeat;
+	background-size: content;
+	background-position: top center;
 }
 
-.new-game {
-	border: #000000 20px solid;
-	padding: 20;
-	width: 20%;
-	height: 120px;
+#counter {
+		color: gray;
+		font-size: 20px;
+}
+
+header {
+	text-align: center;
+	font-family: 'Nosifer', cursive;
+	color: gray;
+	/*color: #dc0055;*/
+	/*margin-left: 420px;
+	margin-right: 50px;*/
+	font-size: 80px;
+	/*text-shadow:
+	font-size:100px;
+	4px 4px 1px #300000,
+	4px 6px 1px #400000,
+	4px 8px 1px #500000,
+	4px 10px 1px #600000,
+	4px 12px 1px #700000,
+	4px 14px 1px #800000,
+	4px 16px 1px #900000,
+	4px 18px 1px #A00000,
+	4px 20px 1px #B00000,
+	4px 22px 1px #C00000,
+	4px 24px 1px #D00000,
+	4px 26px 1px #E00000,
+	4px 28px 1px #F00000,
+	4px 30px 1px #FA0000,
+	4px 32px 1px #FB0000,
+	4px 34px 1px #FC0000,
+	4px 36px 1px #FD0000,
+	4px 38px 1px #FE0000,
+	4px 40px 2px #FF0000;*/
 }
 
 
+
+#new-game {
+	font-size: 50px;
+	border: #dc0055 10px solid;
+	padding: 10;
+	width: 150px;
+	height: 150px;
+	margin-left: 100px;
+	margin-top: 300px;
+	float:left;
+}
+
+img {
+	background-color: #dc0055;
+}
+
+.container {
+	/*flex: auto;*/
+	display: flex inline-table;
+	/*height: 50%;
+	width: 50%;*/
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-bottom: 800px;
+}
 
 .table {
- 	border: #000000 2px solid;
+	/*display: flexinline-table;*/
+	/*background-color: #dc0055*/
+ 	border: gray 7px solid;
  	border-spacing: 0;
- 	width: 80%;
- 	height: 180px;
- 	padding: 15px;
-    margin: 50px; 
+ 	width: 480px;
+ 	height: 50%;
+ 		/*padding: 15px;*/
+  margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 200px;
 }
 
-.tbody {
+/*.tbody {
 	border: #000000 2px solid;
 	width: 50%;
 	padding: 25px;
     margin: 25px;
-}
+}*/
 
 .row {
 	display: table-row;
 	border: #000000 2px solid;
 	width: 20%;
-	padding: 25px;
-    margin: 25px;
+	/*padding: 25px;
+    margin: 25px;*/
 }
 
 
 .cell {
 	display: table-cell;
+	position:relative;
 	/*justify-content: space-around;*/
-	align-items: center;
+	/*align-items: center;*/
 	border: transparent;
 	/*border-spacing: 0;*/
-	width: 30px;
-	height: 30px;
+	/*width: 230px;;*/
+	height: 30px;;
 	/* padding: 25px; */
-    margin: 25px;
+  /*margin: 25px;*/
+}
+
+/*.flipping {
+	perspective: 1000px;
+	transform: rotateY(180deg);
+	width: 320px;
+	height: 480px;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	transform: rotateY(0deg);
+	transform: rotateY(180deg);*/
+
+
+
+
 }
 
 
@@ -56,4 +142,3 @@ body {
 	align-items: center;
 	height: 100vh;  100view height
 	**try removing margin and text-align if it is there
-
